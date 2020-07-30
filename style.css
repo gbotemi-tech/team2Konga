@@ -11,18 +11,13 @@ body{
 
 .laptop .section1 .row .col-md-4 .card {
   border: none;
+  height: 100%;
   box-shadow: 1px 2px 3px 2px rgba(0, 0, 0, 0.23);
 } 
 
 .laptop .section1 .row .col-md-4 .card .row .col-md-8 .card-body .card-title {
   font-size: 16px;
 }
-
-.section1 .row .col-md-4 .card{
-  height: 100%;
-}
-
-
 
 .section1 .row .col-md-4 .card .row .col-md-4 img {
   min-height: 25vh;
@@ -35,7 +30,7 @@ body{
 }
 
 .section1 .row .col-md-4 .card .row .col-md-8 .card-body .para3 {
-  font-size: 0.82rem;
+  font-size: 0.7rem;
   color: #1dbb86;
   margin-top: -1.3em;
 }
@@ -59,7 +54,7 @@ body{
   }
   .laptop .section1 .row .col-md-4 .card .row .col-md-8 .card-body h5,
   .laptop .section1 .row .col-md-4 .card .row .col-md-8 .card-body p {
-    font-size: 1.7rem !important;
+    font-size: 1.4rem !important;
   }
   .laptop .section1 .row .col-md-4 .card .row .col-md-8 .card-body,
   .section1 .row .col-md-4 .card .row .col-md-8 .card-body .amount small {
@@ -71,11 +66,10 @@ body{
   }
 }
 
-
 @media only screen and (max-width: 890px) {
   .laptop .section1 .row .col-md-4 .card .row .col-md-8 .card-body h5,
   .laptop .section1 .row .col-md-4 .card .row .col-md-8 .card-body p {
-    font-size: 1.3rem !important;
+    font-size: 1rem !important;
   }
   .laptop .section1 .row .col-md-4 .card .row .col-md-8 .card-body,
   .section1 .row .col-md-4 .card .row .col-md-8 .card-body .amount small {
@@ -84,9 +78,15 @@ body{
 }
 
 @media only screen and (max-width: 767px) {
+  .laptop .section1 .row .col-md-4 .card {
+    height: 60vh;
+    width: 50vw;
+    margin: auto;
+    padding: 0.6rem !important;
+  }
   .section1 .row .col-md-4 .card .row .col-md-4 img {
-    height: 50vh;
-    margin-bottom: -2.3rem;
+    height: 30vh;
+    margin-bottom: -2.8rem;
   }
   .laptop .section1 .row .col-md-4 .card .row .col-md-8 .card-body {
     margin-left: -0.8rem !important;
@@ -99,4 +99,10 @@ body{
   .section1 .row .col-md-4 .card .row .col-md-8 .card-body .amount small {
     color: #dd383a;
   }
-} 
+}
+
+@media only screen and (max-width:400px) {
+  .laptop .section1 .row .col-md-4 .card {
+    width: 75vw;
+  }
+}
