@@ -4,6 +4,8 @@
   margin:0;
   box-sizing :border-box ;
 } 
+/*Thrive's section*/
+
 
 body{
   min-width : 100%;
@@ -99,6 +101,7 @@ body{
   .section1 .row .col-md-4 .card .row .col-md-8 .card-body .amount small {
     color: #dd383a;
   }
+<<<<<<< HEAD
 }
 
 @media only screen and (max-width:400px) {
@@ -106,3 +109,11 @@ body{
     width: 75vw;
   }
 }
+=======
+} 
+div.kayla-pix{
+  max-width :13rem;
+  height :auto ;
+}
+
+>>>>>>> 7db070442d048b9b855f02bf9e54a35bfb6033cd
